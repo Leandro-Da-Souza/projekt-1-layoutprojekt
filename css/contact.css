@@ -60,3 +60,14 @@ body {
 }
 
 /* MAIN */
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+main nav ul {
+    display: flex;
+    justify-content: space-around;
+    height: 20%;
+}
