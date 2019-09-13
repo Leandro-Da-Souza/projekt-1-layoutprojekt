@@ -9,10 +9,54 @@
 body {
     font-size: 1.2rem;
     letter-spacing: 0.1rem;
-    line-height: 1.1rem;
+    /* line-height: 3rem; */
     font-family: 'Open Sans Condensed', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+/* SPLASH */
+
+.splash {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: #c6dde9;
+}
+
+.splash .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    padding-left: 10%;
 }
 
 .splash .text h1 {
-    font-family: 'Raleway', cursive;
+    font-family: 'Chilanka', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 20px;
 }
+.splashImg {
+    background-image: url(../contactImg/image2.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    height: 100%;
+    /* margin-right: 100px; */
+    width: 40%;
+}
+
+@media (max-width: 900px) {
+    .splashImg {
+        display: none;
+    }
+    .splash .text {
+        width: 100%;
+    }
+}
+
+/* MAIN */
