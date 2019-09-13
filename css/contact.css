@@ -34,7 +34,7 @@ body {
 }
 
 .splash .text h1 {
-    font-family: 'Chilanka', sans-serif;
+    /* font-family: 'Chilanka', sans-serif; */
     font-size: 4rem;
     font-weight: bold;
     padding: 20px;
@@ -173,4 +173,26 @@ textarea::placeholder {
         text-align: center;
         padding-top: 25%;
     }
+}
+
+/* FOOTER */
+
+footer {
+    background-image: url(../contactImg/xavier-l-0llQmuT-qFk-unsplash.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    width: 100vw;
+    position: absolute;
+}
+
+footer .contact {
+    background-color: #f9b131;
+    width: max-content;
+    padding: 50px;
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 40px;
 }
