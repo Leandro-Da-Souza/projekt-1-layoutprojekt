@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.2;
+    letter-spacing: 2px;
+}
+
+/* LANDING PAGE */
+
+.landing-page {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.landing-page .box1 {
+    background-color: #c6dde9;
+    height: 100%;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.landing-page .text {
+    padding: 20px;
+}
+
+.landing-page .text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.landing-page .text p {
+    font-size: 1.1rem;
+}
+
+.landing-page .box1 .text span {
+    color: #fff;
+}
+.landing-page .box1 img {
+    width: 300px;
+    height: 50%;
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-top: 40px;
+}
+
+.landing-page .box1 button {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 40%;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 20px 0 0 20px;
+    cursor: pointer;
+}
+
+.landing-page .box2 {
+    background-color: #f07949;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-page .box3 {
+    background-color: #f9b131;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-page .box2 h2,
+.landing-page .box3 h2 {
+    color: #fff;
+    font-size: 2rem;
+}
+.landing-page .box2 p,
+.landing-page .box3 p {
+    font-size: 0.7rem;
+}
+
+/* MAIN SECTION */
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+main nav {
+    padding: 20px 0;
+    background-color: #eaeaea;
+}
+main nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+main nav ul li {
+    list-style: none;
+}
+
+main nav ul li a {
+    text-decoration: none;
+    color: #a8a19e;
+}
+
+main nav ul li a.active {
+    color: #000;
+}
