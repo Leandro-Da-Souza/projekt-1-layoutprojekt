@@ -121,11 +121,67 @@ main nav ul li a.active {
     color: #000;
 }
 
-main .grid-3 {
-    /* display: grid;
-    grid-template-columns: 100px auto 100px; */
-    /* grid-auto-rows: auto; */
+main .content2 .container {
+    width: 100vw;
+    height: 50vh;
+    background-color: #f9b131;
+    display: flex;
+    justify-content: space-around;
+}
+
+main .content2 .container .box {
+    width: 280px;
+    height: 250px;
+    background-color: white;
     position: relative;
+    top: -80px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+main .content2 .container .imgHolder {
+    height: 70%;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+main .content2 .container .imgHolder img {
+    width: 120px;
+    margin-left: 50px;
+}
+
+main .content2 .container .box:nth-child(1) .imgHolder {
+    background-color: #c6dde9;
+}
+
+main .content2 .container .box:nth-child(2) .imgHolder {
+    background-color: #f9b131;
+}
+
+main .content2 .container .box:nth-child(3) .imgHolder {
+    background-color: #f07949;
+}
+
+main .content2 .container .box h4 {
+    text-align: center;
+}
+
+main .content2 .container .box p {
+    text-align: center;
+    font-size: 0.55rem;
+}
+
+main .content2 .text {
+    text-align: center;
+    align-self: center;
+    position: absolute;
+    padding: 10px;
+    margin-top: 50px;
 }
 
 main .finance {
@@ -179,110 +235,10 @@ main .about p {
     margin-bottom: 40px;
 }
 
-main .children,
-main .just-right,
-main .old {
-    /* grid-column: 2; */
-    background-color: #fff;
-    height: 30vh;
-    width: 25vw;
-    /* margin: 0 20px; */
-    position: absolute;
-}
-
-main .children {
-    top: 35%;
-    left: 10%;
-}
-main .just-right {
-    top: 35%;
-    left: 40%;
-}
-main .old {
-    top: 35%;
-    left: 70%;
-}
-
-main .back1 {
-    position: absolute;
-    background-color: #c6dde9;
-    width: 100%;
-    height: 50%;
-}
-main .back2 {
-    position: absolute;
-    background-color: #f9b131;
-    width: 100%;
-    height: 50%;
-}
-main .back3 {
-    position: absolute;
-    background-color: #f07949;
-    width: 100%;
-    height: 50%;
-}
-
-main .back1 img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-main .back2 img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-main .back3 img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-main .children h4 {
-    position: relative;
-    top: 55%;
-    text-align: center;
-    font-weight: lighter;
-}
-
-main .children p {
-    position: relative;
-    font-size: 0.65rem;
-    text-align: center;
-    top: 55%;
-}
-
-main .old h4 {
-    position: relative;
-    top: 55%;
-    text-align: center;
-    font-weight: lighter;
-}
-main .old p {
-    position: relative;
-    font-size: 0.65rem;
-    text-align: center;
-    top: 55%;
-}
-
-main .just-right h4 {
-    position: relative;
-    top: 55%;
-    text-align: center;
-    font-weight: lighter;
-}
-main .just-right p {
-    position: relative;
-    font-size: 0.65rem;
-    text-align: center;
-    top: 55%;
-}
-
 /*  FOOTER */
 
 footer {
-    margin-top: 59px;
+    /* margin-top: 59px; */
     height: 100vh;
     width: 100vw;
     /* background-color: red; */
