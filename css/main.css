@@ -120,3 +120,250 @@ main nav ul li a {
 main nav ul li a.active {
     color: #000;
 }
+
+main .grid-3 {
+    /* display: grid;
+    grid-template-columns: 100px auto 100px; */
+    /* grid-auto-rows: auto; */
+    position: relative;
+}
+
+main .finance {
+    width: 100vw;
+    height: 50vh;
+    background-color: #a8a19e;
+    display: flex;
+}
+
+main .finance .left {
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+main .finance .left h2 {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+main .finance .left button {
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+main .finance .right {
+    width: 50%;
+    align-self: center;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+main .about {
+    width: 100vw;
+    height: 50vh;
+    background-color: #f9b131;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+main .about p {
+    margin-bottom: 40px;
+}
+
+main .children,
+main .just-right,
+main .old {
+    /* grid-column: 2; */
+    background-color: #fff;
+    height: 30vh;
+    width: 25vw;
+    /* margin: 0 20px; */
+    position: absolute;
+}
+
+main .children {
+    top: 35%;
+    left: 10%;
+}
+main .just-right {
+    top: 35%;
+    left: 40%;
+}
+main .old {
+    top: 35%;
+    left: 70%;
+}
+
+main .back1 {
+    position: absolute;
+    background-color: #c6dde9;
+    width: 100%;
+    height: 50%;
+}
+main .back2 {
+    position: absolute;
+    background-color: #f9b131;
+    width: 100%;
+    height: 50%;
+}
+main .back3 {
+    position: absolute;
+    background-color: #f07949;
+    width: 100%;
+    height: 50%;
+}
+
+main .back1 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+main .back2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+main .back3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+main .children h4 {
+    position: relative;
+    top: 55%;
+    text-align: center;
+    font-weight: lighter;
+}
+
+main .children p {
+    position: relative;
+    font-size: 0.65rem;
+    text-align: center;
+    top: 55%;
+}
+
+main .old h4 {
+    position: relative;
+    top: 55%;
+    text-align: center;
+    font-weight: lighter;
+}
+main .old p {
+    position: relative;
+    font-size: 0.65rem;
+    text-align: center;
+    top: 55%;
+}
+
+main .just-right h4 {
+    position: relative;
+    top: 55%;
+    text-align: center;
+    font-weight: lighter;
+}
+main .just-right p {
+    position: relative;
+    font-size: 0.65rem;
+    text-align: center;
+    top: 55%;
+}
+
+/*  FOOTER */
+
+footer {
+    margin-top: 59px;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+}
+
+footer .grid {
+    width: 100vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+footer .up {
+    width: 100vw;
+    height: 30vh;
+}
+
+footer .grid > div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .grid .cell1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .grid > div:not(.cell1) p {
+    align-self: center;
+    margin-top: 25%;
+    text-align: center;
+}
+
+footer .cell1 {
+    background-color: #c6dde9;
+}
+
+footer .cell2,
+footer .cell4,
+footer .cell6 {
+    background-color: #fff;
+    color: #a8a19e;
+}
+
+footer .cell3 {
+    background-color: #a8a19e;
+    color: #000;
+}
+
+footer .cell5 {
+    background-color: #f07949;
+}
+
+footer .grid > div h3 {
+    padding: 10px;
+    font-size: 1.5rem;
+    color: #a8a19e;
+}
+
+footer .grid .cell3 h3 {
+    color: #000;
+}
+footer .up {
+    width: 100vw;
+    background-color: #777474;
+}
+footer .up nav {
+    width: 100%;
+    height: 25%;
+    background-color: #a8a19e;
+    padding: 5px;
+}
+
+footer .up nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-left: 45%;
+}
+
+footer .up nav i {
+    margin-left: 50%;
+}
