@@ -148,6 +148,7 @@ main .content .form-group button {
     text-transform: uppercase;
     margin-left: auto;
     font-weight: bold;
+    cursor: pointer;
 }
 
 textarea::placeholder {

@@ -99,25 +99,25 @@ main {
     width: 100vw;
 }
 
-main nav {
+nav {
     padding: 20px 0;
     background-color: #eaeaea;
 }
-main nav ul {
+nav ul {
     display: flex;
     justify-content: space-around;
 }
 
-main nav ul li {
+nav ul li {
     list-style: none;
 }
 
-main nav ul li a {
+nav ul li a {
     text-decoration: none;
     color: #a8a19e;
 }
 
-main nav ul li a.active {
+nav ul li a.active {
     color: #000;
 }
 
